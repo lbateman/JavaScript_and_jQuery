@@ -1,0 +1,103 @@
+/* ==========================================================================
+ *  Some Preliminaries (from HTML5 Boilerplate unless otherwise noted)
+ * ========================================================================== */
+
+/* I generally start with a reset (mostly from Eric Meyer) */
+html, body, h1, h2, h3, h4, h5, h6, p, div, em, img, strong, b, i, ol, ul, li, article, figure, footer, header, menu, nav, section {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Apply a natural box layout model to all elements (per Paul Irish) */
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+/* Remove the gap between images and the bottom of their containers:
+   https://github.com/h5bp/html5-boilerplate/issues/440 */
+img {
+    vertical-align: middle;
+}
+
+/* Allow only vertical resizing of textareas. */
+textarea {
+    resize: vertical;
+}
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+ *  Overall Styles
+ * ========================================================================== */
+
+/* Add some margins to the top of the page and set the width */
+.page-wrap {
+    width: 960px;       /* Who knows what resolution the classroom computer has... */
+    margin-top: 1em;
+}
+
+/* Set up the fonts */
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+h2{
+    font-size: 2em;
+    color: #767676;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #444;
+    text-align: center;
+    padding: 1em;
+}
+
+/* ==========================================================================
+ *  Set Up the Grid (of sorts) and the Cards
+ * ========================================================================== */
+
+.main-content {
+    padding: 1em 5%;
+}
+
+section {
+    float: left;
+    height: 300px;
+}
+
+/* Set up the cards */
+
+figure {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;            /* This won't work in IE8, but consider it a progressive enhancement */
+    box-shadow: 5px 5px 3px #ccc;   /* Ditto for this */
+    padding: 1em 1.5em;
+    margin: 1em;
+}
