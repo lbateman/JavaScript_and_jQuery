@@ -1,0 +1,10 @@
+#pagewrap {
+	margin-left: 5%;
+}
+
+.bad {
+	text-align: right;
+	margin-right: 5%;
+	color: #ff0000;
+	background-color: #cc0066;
+}
