@@ -1,7 +1,8 @@
-// Code by JavaScript instructor and Leah Bateman, 10/11/2015
+// Unless noted, code is by JavaScript instructor and Leah Bateman, 10/11/2015
 // I've looked at several functions in other student's code over the past few weeks,
 // most recently Liz Burton's code from week 6, which I looked at about 12 hours before I wrote my function,
-// so I may be leveraging it from my memory stores :)
+// so I may be leveraging some stuff about functions from my memory stores
+// (plus see below for concatenation note)
 
 //For readability and clarity it is good practice to declare variables at the beginning of the JS document if possible
 
@@ -57,11 +58,9 @@ for(var i = 0; i < speechesArray.length; i++){
 // This function takes a variable index, pulls information from the array for that index, and prints information to the page
 
 speechInfo = function(index) {
-  document.getElementById("ConsoleDisplay").innerHTML = 'This speech was written by ';
-  document.getElementById("ConsoleDisplay").innerHTML += speechesArray[index].author;
-  document.getElementById("ConsoleDisplay").innerHTML += ' in ';
-  document.getElementById("ConsoleDisplay").innerHTML += speechesArray[index].year;
-  document.getElementById("ConsoleDisplay").innerHTML += '.'
+  // I tried to concatenate the pieces when I first wrote the code, and for some reason it didn't work,
+  // but I looked at Lisa's code and it worked for her, so I tried again (and it does work this time)
+  document.getElementById("ConsoleDisplay").innerHTML = 'This speech was written by ' + speechesArray[index].author + ' in ' + speechesArray[index].year + '.'
 
   if(speechesArray[index].yearIsBCE === true){
     document.getElementById("ConsoleDisplay").innerHTML += '<br>This speech took place before the common era.';
@@ -80,40 +79,47 @@ speechInfo = function(index) {
 // //////////////////////////////////////// Event Handler for Donate Button ////////////////////////////////////////
 
 // When the Donate button is clicked, this function compares the input to one of five conditions --
-// empty (no input + OK button), null (Cancel button), a number < 100, a number >= 100, and anything else --
+// null (Cancel button), empty (no input + OK button), a number < 100, a number >= 100, and anything else --
 // and takes the appropriate action
+// (I tried to remove any previous h3s before writing the latest donation to the screen, but couldn't figure it out)
 
 document.getElementById('BtnDonate').addEventListener('click', function(){
   // Code in here executes when the user clicks the "Donate" button.
   // Get some input from the user
   donatePrompt = window.prompt("How much would you like to donate?");
   // Let's put in some error handling here
-  // First check that input is not empty or null (Cancel button), because both inputs are treated as a number
-  if (donatePrompt !== "" && donatePrompt !== null) {
-    // And if input is not null and is less than 100...
-    if (donatePrompt < 100) {
-      // Create the h3 and text nodes and attach them to the right places
+  // First check that input is not null (Cancel button), because that's treated as a number
+  if (donatePrompt !== null) {
+    // Empty input is also treated as a number, so check for that...
+    if (donatePrompt === "") {
       h3 = document.createElement("h3");
-      h3Text = document.createTextNode("Thank you for your donation of $" + donatePrompt + ".");
+      h3Text = document.createTextNode("Sorry, but you haven't entered anything. Please try again.");
       h3.appendChild(h3Text);
       document.getElementById("SideNav").appendChild(h3);
+    // And if input is not null and is less than 100...
+    } else if (donatePrompt < 100) {
+        // Create the h3 and text nodes and attach them to the right places
+        h3 = document.createElement("h3");
+        h3Text = document.createTextNode("Thank you for your donation of $" + donatePrompt + ".");
+        h3.appendChild(h3Text);
+        document.getElementById("SideNav").appendChild(h3);
     // Or if input is not null and greater than 100... 
     } else if (donatePrompt >= 100) {
-          h3 = document.createElement("h3");
-          h3Text = document.createTextNode("Thank you for your very generous donation!");
-          h3.appendChild(h3Text);
-          document.getElementById("SideNav").appendChild(h3);
-          // For this case, also set the h3 text color to red...
-          h3.setAttribute("style", "color: #DB152C");
-          // And change the classes of the article elements
-          // (Presumably nothing except the title changes because the styles of the other elements are controlled by more specific CSS selectors)
-          // Get all the article elements, which are collected into an array
-          articles = document.getElementsByTagName("article");
-          // Loop through the array of articles...
-          for (i = 0; i < articles.length; i++) {
-            // And add a class to each article
-            articles[i].className = "generous-donation";
-          }
+        h3 = document.createElement("h3");
+        h3Text = document.createTextNode("Thank you for your very generous donation!");
+        h3.appendChild(h3Text);
+        document.getElementById("SideNav").appendChild(h3);
+        // For this case, also set the h3 text color to red...
+        h3.setAttribute("style", "color: #DB152C");
+        // And change the classes of the article elements
+        // (Presumably nothing except the title changes because the styles of the other elements are controlled by more specific CSS selectors)
+        // Get all the article elements, which are collected into an array
+        articles = document.getElementsByTagName("article");
+        // Loop through the array of articles...
+        for (i = 0; i < articles.length; i++) {
+          // And add a class to each article
+          articles[i].className = "generous-donation";
+        }
     // Or if the user didn't input a number, show an error message
     } else {
       h3 = document.createElement("h3");
