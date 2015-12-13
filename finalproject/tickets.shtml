@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<title>Theatre@First: Tickets</title>
+	<link rel="stylesheet" type="text/css" href="css/taf.css">
+</head>
+   
+<body>
+<!--#include virtual="nav.html" -->
+				
+    <div id="content">
+				<h1>Tickets for Upcoming Shows</h1>
+
+				<h2>Tickets</h2>
+
+			<p><a href="http://www.theatreatfirst.org/shows/being_earnest/being_earnest.shtml"><img src="http://www.theatreatfirst.org/shows/being_earnest/being_earnest_logo.jpg" alt="The Importance of Being Earnest" height="200" border="0"></a></p>
+			
+			<p>Two friends use the same pseudonym ("Ernest") for their on-the-sly activities. Hilarity ensues.</p>
+			<p><a href="http://www.theatreatfirst.org/shows/being_earnest/being_earnest.shtml"><strong>Performances:</strong></a> Nov 6&ndash;21</p>
+
+			<p>&nbsp;</p>
+			<h2>Ticket Prices:</h2>
+			Adults &#8211; $15<br>
+			Student/seniors &#8211; $12<br>
+			Group discounts are available for 8 people or more &#8211; email <a href="mailto:groups@theatreatfirst.org">groups@theatreatfirst.org</a><br>
+			&nbsp;<br>
+			&nbsp;<br>
+			<h2>Buy Tickets in Advance at Brown Paper Tickets!</h2>
+			<p><a href="http://www.brownpapertickets.com/event/2266259"><img src="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_large.png" alt="Brown Paper Tickets logo" width=182px height=92px border=0></a></p>
+				<p>&nbsp;</p>
+
+		<p>If you would like to reserve your tickets now and pay at the door, please use the form below.  Tickets at the door may be purchased with cash or a major credit card.</p>  
+
+		<form name="ticketform" id="ticket-form" action="http://formmail.dreamhost.com/cgi-bin/formmail.cgi" method="POST">
+			<input type=hidden name="recipient" value="webmaster@theatreatfirst.org">
+			<input type=hidden name="subject" value="Ticket Reservations for The Importance of Being Earnest">
+			<table width="982" border="0" align="left" cellpadding="5" cellspacing="0">
+  				<tr> 
+    				<td>
+						<table cellpadding="0" cellspacing="5">
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="48" align="left" valign="middle" nowrap>
+								<div align="left">
+									<h2>Reserve Tickets</h2>
+								</div>
+							</td>
+						</tr>
+						<tr valign="top">
+							<td colspan="2" width="629" >
+								<p class="indent">When you submit this reservation form, your request is sent directly to the House Manager, who will then contact you via e-mail or phone to confirm your reservation. Payment will be due at the door; we accept cash and credit cards (Visa, MasterCard, American Express, and Discover).</p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>
+						<tr>
+							<td width="196" height="30" align="right" valign="middle" nowrap>Your Name/Name of Party&nbsp;<span style="color:red">*</span></td>
+							<td width="372" height="40" align="left" valign="middle"><input type="text" id="contact_name" name="Name/Name of Party" size="50"></td>
+							<td width="372" height="40" align="left" valign="middle"><span id="contactNameMsg" class="error">Please enter a name.</span></td>
+						</tr>
+						<tr>
+							<td height="30" align="right" valign="middle" nowrap>Contact E-mail&nbsp;<span style="color:red">*</span></td>
+							<td width="372" height="40" align="left" valign="middle"><input type="text" id="contact_email" name="E-mail Address" size="50"></td>
+							<td width="372" height="40" align="left" valign="middle"><span id="contactEmailMsg" class="error">Please enter a valid email.</span></td>
+						</tr>
+						<tr>
+							<td height="30" align="right" valign="middle" nowrap>Contact Phone&nbsp;<span style="color:red">*</span></td>
+							<td width="372" height="40" align="left" valign="middle"><input type="text" id="contact_phone" name="Phone #" size="50"></td>
+							<td width="372" height="40" align="left" valign="middle"><span id="contactPhoneMsg" class="error">Please enter a valid phone number.</span></td>
+						</tr>
+						<tr>
+							<td width="196" height="30" align="right" valign="middle" nowrap>Your Town</td>
+							<td width="372" height="40" align="left" valign="middle"><input type="text" name="Your Town" size="50"></td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>  
+						<tr><div id="ticketNum">
+							<td height="30" align="right" valign="top" nowrap># of Member/Subscriber Tickets&nbsp;<span style="color:red">*</span></td>
+							<td width="372" height="30" align="center" valign="top">
+								<div align="left">
+									<input name="# of Adult Tickets" type="text" id="numAdultTickets" class="ticketNumber" size="3"><span><em>Adult $15 ea.</em></span></div>
+							</td>
+							<td width="372" height="40" align="left" valign="middle"><span id="ticketNumMsg" class="error">Please enter the number of tickets.</span></td>
+						</div></tr>
+						<tr>
+							<td height="30" align="right" valign="top" nowrap>&nbsp;&nbsp;</td>
+							<td width="372" height="30" align="center" valign="top">
+								<div align="left">
+									<em><input name="# Student Tickets" type="text" id="numStudentTickets" class="ticketNumber" size="3"> </em><span><em>Student $12 ea.</em></span></div>
+							</td>
+						</tr>
+						<tr>
+							<td height="30" align="right" valign="top" nowrap>&nbsp;&nbsp;</td>
+							<td width="372" height="30" align="center" valign="top">
+								<div align="left">
+									<em><input name="# of Senior Tickets" type="text" id="numSeniorTickets" class="ticketNumber" size="3">  </em><span><em>Senior $12 ea.</em></span></div>
+							</td>
+						</tr>
+						<tr height="40">
+							<td height="40" align="right" valign="top" nowrap></td>
+							<td width="372" height="40" align="center" valign="top">
+								<div align="left">
+									<em><input name="# of T@F Member/Subscriber Tickets" type="text" id="numMemSubTickets" class="ticketNumber" size="3" align=left></em>
+									<em>I am a <span class="goldbold">T@F Member/Subscriber</span> and need this number of tickets from my annual allotment</em></div>
+							</td>
+						</tr>
+						<tr height="55">
+							<td height="55" align="right" valign="top" nowrap></td>
+							<td width="372" height="55" align="center" valign="top">
+								<div align="left">
+									<em><input name="# of T@F Subscriber Tickets at the Door" type="text" id="NumSubTicketsAtDoor" class="ticketNumber" size="3"></em>
+									<em>I am planning on purchasing a T@F Subscription at the door and need this number of tickets from my annual allotment</em></div>
+							</td>
+						</tr>
+						<tr>
+							<td height="30" align="right" valign="top" nowrap>&nbsp;</td>
+							<td width="372" height="30" align="center" valign="top">
+								<div align="left">
+									&nbsp;<em>(click <a href="membership.shtml">here</a> to read more about T@F Subscriber ticket benefits)</em></div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>  
+						<div id="ticketDate"><tr>
+							<td align="right" valign="top" nowrap>Reservation Date&nbsp;<span style="color:red">*</span></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Friday, November 6, 8:00pm">Friday, November 6, 8:00pm</div>
+							</td>
+							<td width="75" align="left" valign="top" nowrap ><span id="ticketDateMsg" class="error">Please select a date.</span></td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Saturday, November 7, 8:00pm">Saturday, November 7, 8:00pm</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="100" height="10" align="center" valign="middle" nowrap>
+								<br>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Thursday, November 12, 8:00pm">Thursday, November 12, 8:00pm</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Friday, November 13, 8:00pm">Friday, November 13, 8:00pm</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Saturday, November 14, 8:00pm">Saturday, November 14, 8:00pm</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<br>
+							</td>
+						</tr>  
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Thursday, November 19, 8:00pm">Thursday, November 19, 8:00pm</div>
+							</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Friday, November 20, 8:00pm">Friday, November 20, 8:00pm</div>
+							</td>
+						</tr>									
+						<tr>
+							<td align="right" valign="top" nowrap></td>
+							<td width="372" height="18" align="center" valign="middle" nowrap>
+								<div align="left">
+									<input type="radio" name="ticketDate" value="Saturday, November 21, 2:00pm (matinee)">Saturday, November 21, 2:00pm (matinee)</div>
+							</td>
+						</tr></div>
+						<tr>
+							<td colspan="2" width="100" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>
+						<tr>
+							<td width="196" height="30" align="right" valign="top" nowrap>How did you hear about this production?&nbsp;</td>
+							<td width="372" height="40" align="left" valign="top"><textarea name="How Did You Hear About Us?" cols="56" rows="2" id="infoSource"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan="2" width="629" height="10" align="center" valign="middle" nowrap>
+								<hr size="1" noshade>
+							</td>
+						</tr>
+						<tr height="110">
+							<td colspan="2" width="629" height="110" align="center">
+								<p><input id="submitButton" name="submit" type="submit" value="Submit Reservation">
+           							<input name="reset" type="reset" value="Reset Form"></p>
+								<p style="text-align: left"><span>NOTE:</span> Some people have been receiving errors when sending their reservation forms.&nbsp; If your form is rejected by FormMail, please send an e-mail to <a href="mailto:tickets@theatreatfirst.org">tickets@theatreatfirst.org</a> and include your reservation and/or Booster Ad information.&nbsp; If possible, please cut and paste the error message as well so we can use it to isolate the problem.&nbsp; Thank you.</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+          		</tr>
+        	</table>
+   		</form>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/validateTickets.js"></script>
+</body>
+</html>

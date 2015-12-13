@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+    <head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Theatre@First Auditions</title>
+		<link rel="stylesheet" type="text/css" href="css/taf.css">
+		<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
+    </head>
+   
+    <body>
+		<!--#include virtual="../../nav.html" -->		
+		<div id="content">
+			<div align="left">
+				<h1>Auditions</h1>
+			</div>
+				<p><span class="body"><a href="http://www.theatreatfirst.org/shows/being_earnest/being_earnest.shtml"><img src="http://www.theatreatfirst.org/shows/being_earnest/being_earnest_logo.jpg" alt="The Importance of Being Earnest" height="200" border="0" /></a></span></p>
+
+				<h2>General Audition Information</h2>
+				<p><b>Auditions:</b> August 25 &amp; 26, by appointment only (slots at 7pm, 8pm, and 9pm). Callbacks, if necessary, will be on August 27, from 7&ndash;10pm.</p>
+				<p>Please read all the details on the <a href="http://www.theatreatfirst.org/shows/being_earnest/audition_info.pdf"> audition information sheet</a>, and fill in the <a href="#audform">webform at the bottom of this page</a> to make an appointment. You will receive a confirmation email shortly.<br>
+				<br>
+				If you have additional questions, need to cancel your appointment, or the webform doesn't work for you, please email <a href="mailto:auditions@theatreatfirst.org">auditions@theatreatfirst.org</a>.</p>
+				<ul>
+					<li><b>Audition Location:</b> <a href="http://www.unitygreaterboston.org/">Unity Somerville</a>, 6 William Street, Somerville.<br>
+					Please note that parking is by permit only on William St. General parking is available on College Ave. Please read signs carefully to avoid ticketing.<br>
+					<br>
+					</li>
+					<li><strong>Audition Information:</strong> For complete audition information, including character descriptions and show requirements, please read through the <a href="http://www.theatreatfirst.org/shows/being_earnest/audition_info.pdf">audition information sheet</a>. <!-- <em>Please note that some traditionally male roles will be cast as women.</em> --><br>
+					<br>
+					</li>
+					<li><b>Audition Form:</b> Please fill out the <a href="/shows/being_earnest/audition_form.pdf"> audition form</a> and bring it with you to auditions. Additional copies will be available at auditions. Head shots and resumes are not requested.<br>
+					<br>
+					</li>
+					<li><b>Audition Materials:</b> A 1-2 minute comic monologue (classical or contemporary) is welcome but not required.<br>
+					<br>
+					</li>
+					<li><b>Audition Sides:</b> Before auditioning, please review the <a href="http://www.theatreatfirst.org/shows/being_earnest/audition_sides.pdf">audition sides</a>. Please get comfortable with them, as you may be asked to read any of them.<br>
+					<br>
+					</li>
+					<li><b>Calendar:</b> Please bring your calendar to auditions (or fill out the audition form calendar section in advance) so you can list all potential conflicts with rehearsal dates.<br>
+					<br>
+					</li> 
+				</ul>
+				<p></p>
+<p>&nbsp;</p>
+				<h3>About the Show</h3>
+				<p><strong>Performance Info:</strong> Performances will take place at Unity Somerville in Davis Square, November 6&ndash;21.</p>
+				<p></p>
+				<p><strong>About the Play: Two friends use the same pseudonym ("Ernest") for their on-the-sly activities. Hilarity ensues.</strong> </p>
+				<p></p>
+<!--				<p><strong>About the Director:</strong> Ron Lacey ...</p> -->
+<p>&nbsp;</p>
+				<h3>Character Descriptions</h3>
+				<p><strong>John Worthing, J.P.</strong> (30s-40s) - A gentleman of curious origins who calls himself Ernest when it is convenient; in love with Gwendolen.</p>
+				<p><strong>Algernon Moncrieff</strong> (30s-40s) - A rather frivolous upper-class fellow who calls himself Ernest when it is convenient; really likes eating.</p>
+				<p><strong>Rev. Canon Chasuble, D.D.</strong> (40s-50s) - An upright celibate nonetheless given to poetry; enamored of Miss Prism.</p>
+				<p><strong>Merriman, Butler</strong> (40s-50s) - Servant in Cecily’s home.</p>
+				<p><strong>Lane, Manservant</strong> (40s-50s) - a dry and highly correct fellow.</p>
+				<p><strong>Lady Augusta Bracknell</strong> (40s-50s) - Algernon’s aunt, a lady of stentorian aspect and fearsome propriety.</p>
+				<p><strong>Hon. Gwendolen Fairfax</strong> (20s-30s) - daughter of Lady Bracknell, a young lady of high, if fanciful, ideals; in love with Jack (Ernest).</p>
+				<p><strong>Cecily Cardew</strong> (20s-30s) - a somewhat vain but innocent young lady; in love with her imagination of Ernest.</p>
+				<p><strong>Miss Prism, Governess</strong> (40s-50s) - a most proper and restrained woman; has a terrible secret.</p>
+				<p><strong>Other servants/crew</strong></p>
+
+<p>&nbsp;</p>
+<hr>
+				<a name="audform"></a><center><h2>Audition Reservation Form</h2></center>
+				<form name="auditionform" id="audition-form" action="http://formmail.dreamhost.com/cgi-bin/formmail.cgi" method="POST">
+					<input type=hidden name="recipient" value="webmaster@theatreatfirst.org">
+					<input type=hidden name="subject" value="Audition Reservations THE IMPORTANCE OF BEING EARNEST">
+					<table width="0" border="0" cellpadding="5" cellspacing="0">
+						<tr><div>
+							<td width="196" height="30" align="right" valign="middle" nowrap><label for="contact_name">Name&nbsp;<span style="color:red">*</span></label></td>
+							<td width="330" height="40" colspan="2" align="left" valign="middle"><input type="text" id="contact_name" name="Name" size="50"></td>
+							<td width="330" height="40" colspan="2" align="left" valign="middle"><span id="contactNameMsg" class="error">Please enter a name.</span></td>
+						</div></tr>
+						<tr><div>
+							<td height="30" align="right" valign="middle" nowrap><label for="contact_email">E-mail&nbsp;<span style="color:red">*</span></label></td>
+							<td width="330" height="40" colspan="2" align="left" valign="middle"><input type="email" id="contact_email" name="E-mail Address" size="50"></td>
+							<td width="330" height="40" colspan="2" align="left" valign="middle"><span id="contactEmailMsg" class="error">Please enter a valid email.</span></td>
+						</div></tr>
+						<div id="preferred"><tr>
+							<td align="right" valign="top" nowrap >Preferred Timeslot&nbsp;<span style="color:red">*</span></td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/25 7pm"> </div></td>
+							<td width="75" align="left" valign="top" nowrap >Tuesday, August 25, 7pm</td>
+							<td width="75" align="left" valign="top" nowrap ><span id="preferredDateMsg" class="error">Please select a date.</span></td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/25 8pm"> </div></td>
+							<td align="left" valign="top" nowrap >Tuesday, August 25, 8pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/25 9pm">
+									</div>
+							<td align="left" valign="top" nowrap >Tuesday, August 25, 9pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/26 7pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 7pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/26 8pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 8pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="preferredDate" value="8/26 9pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 9pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap ></td>
+							<td align="left" valign="top" nowrap ></td>
+						</tr>
+						<tr><td width="338" height="40" colspan="2" align="left" valign="middle"><span class="error">Please select a timeslot.</span></td></tr>
+						</div>
+						<div id="second-choice">
+						<tr>
+							<td align="right" valign="top" nowrap >Second Choice</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/25 7pm"> </div></td>
+							<td width="75" align="left" valign="top" nowrap >Tuesday, August 25, 7pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/25 8pm"> </div></td>
+							<td align="left" valign="top" nowrap >Tuesday, August 25, 8pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/25 9pm"> </div></td>
+							<td align="left" valign="top" nowrap >Tuesday, August 25, 9pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/26 7pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 7pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/26 8pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 8pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap >
+								<div align="center">
+									<input type="radio" name="secondDate" value="8/26 9pm"> </div></td>
+							<td align="left" valign="top" nowrap >Wednesday, August 26, 9pm</td>
+						</tr>
+						<tr>
+							<td align="right" valign="top" nowrap >&nbsp;</td>
+							<td width="30" height="0" valign="middle" nowrap ></td>
+							<td align="left" valign="top" nowrap ></td>
+						</tr>
+						<tr><td width="338" height="40" colspan="2" align="left" valign="middle"><span class="error">Please select a timeslot.</span></td></tr>
+						</div>
+						<tr>
+							<td width="663" height="123" colspan="3" align="center">
+								<p><span id="contact_submit">
+									<input id="submitButton" name="submit" type="submit" value="Submit"></span>   
+									<input id="resetButton" name="reset" type="reset" value="Reset Form"></p>
+									<a href="#" id="clickMe">Click Me</a>
+								<p>NOTE: Some people have been receiving errors when sending their forms. If your form is rejected by FormMail, please send an e-mail to <a href="mailto:auditions@theatreatfirst.org">auditions@theatreatfirst.org</a> and include your information.&nbsp; If possible, please cut and paste the error message as well so we can use it to isolate the problem. Thank you.</p>
+							</td>
+						</tr>
+					</table>
+				</form>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/validateAuditions.js"></script>
+	</body>
+    </html>
+
