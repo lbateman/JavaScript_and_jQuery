@@ -77,12 +77,12 @@ $(document).ready(function () {
 		isNum = validateTextNum(donationAmount);
 
 		// create a message in the console depending on the user's input
-    	if (isNum === false || donationAmount === 0) {
+    	if (isNum === false || donationAmount == 0) {
 		  if ($("#donateQuery").children("h3").length > 0) { 
 			$("#donateQuery").children("h3").remove();
 		  }
     	  $("#donateQuery").append("<h3>Sorry, but you didn't enter a valid amount. Please try again.</h3>");
-    	} else if (donationAmount < 100) {
+    	} else if (donationAmount > 0 && donationAmount < 100) {
 		  if ($("#donateQuery").children("h3").length > 0) { 
 			$("#donateQuery").children("h3").remove();
 		  }
