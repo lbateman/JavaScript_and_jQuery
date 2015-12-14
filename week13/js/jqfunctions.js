@@ -81,7 +81,7 @@ $(document).ready(function () {
 		  if ($("#donateQuery").children("h3").length > 0) { 
 			$("#donateQuery").children("h3").remove();
 		  }
-    	  $("#donateQuery").append("<h3>Sorry, but you didn't enter a valid amount. Please try again.</h3>");
+    	  $("#donateQuery").append("<h3>Sorry, but you didn't enter a valid amount. Please try again and only enter digits.</h3>");
     	} else if (donationAmount > 0 && donationAmount < 100) {
 		  if ($("#donateQuery").children("h3").length > 0) { 
 			$("#donateQuery").children("h3").remove();
