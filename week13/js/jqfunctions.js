@@ -80,10 +80,10 @@ $(document).ready(function () {
     	if (isNum === false || donationAmount === 0) {
     	  $("#donateQuery").append("<h3>Sorry, but you didn't enter a valid amount. Please try again.</h3>");
     	} else if (donationAmount < 100) {
-       	  $("#donationForm").hide()
+       	  $("#donationForm").hide();
        	  $("#donateQuery").append("<h3>Thank you for your donation of $" + donationAmount + ".</h3>");
     	} else if (donationAmount >= 100) {
-    	  $("#donationform").hide()
+    	  $("#donationForm").hide();
     	  $("#donateQuery").append("<h3>Thank you for your very generous donation!</h3>");
 	    }
 	    return false;
