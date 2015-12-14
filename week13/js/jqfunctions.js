@@ -19,7 +19,7 @@ function showSpeech(speechNum) {
 
 function validateTextNum(input) {
 	// regex ganked from http://stackoverflow.com/questions/4702730/regex-for-validating-an-integer-with-a-maximum-length-of-10-characters and modified
-	var regExNum = /^[0-9]{1,3}$/;
+	var regExNum = /^[0-9]{1,10}$/;
 	// need to have a variable to hold the return value because otherwise the empty fields will return NaN and the function will return false
 
 	var inputValue = parseInt(input, 10);
@@ -78,12 +78,21 @@ $(document).ready(function () {
 
 		// create a message in the console depending on the user's input
     	if (isNum === false || donationAmount === 0) {
+		  if ($("#donateQuery").children("h3").length > 0) { 
+			$("#donateQuery").children("h3").remove();
+		  }
     	  $("#donateQuery").append("<h3>Sorry, but you didn't enter a valid amount. Please try again.</h3>");
     	} else if (donationAmount < 100) {
-       	  $("#donationForm").hide();
+		  if ($("#donateQuery").children("h3").length > 0) { 
+			$("#donateQuery").children("h3").remove();
+		  }
+		  $("#donationForm").hide();
        	  $("#donateQuery").append("<h3>Thank you for your donation of $" + donationAmount + ".</h3>");
     	} else if (donationAmount >= 100) {
-    	  $("#donationForm").hide();
+		  if ($("#donateQuery").children("h3").length > 0) { 
+			$("#donateQuery").children("h3").remove();
+		  }
+		  $("#donationForm").hide();
     	  $("#donateQuery").append("<h3>Thank you for your very generous donation!</h3>");
 	    }
 	    return false;
